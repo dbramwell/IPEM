@@ -1,0 +1,9 @@
+{
+  "name": "grunt-mocha-phantomjs-test",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt-browserify": "^4.0.1",
+    "grunt-mocha-phantomjs": "^3.0.0",
+    "mocha-teamcity-reporter": "^1.0.0"
+  }
+}
