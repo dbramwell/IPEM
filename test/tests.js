@@ -1,7 +1,7 @@
 describe("DOM Tests", function () {    
     
       it("has the right text", function () {
-        expect(document.getElementById('header').innerHTML).to.equal("Hello");
+        expect(document.getElementById('content').innerHTML).to.equal("Hello World");
       });
 
     function takeScreenshot() {

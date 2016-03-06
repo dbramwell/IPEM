@@ -1,9 +1,9 @@
+var MainButton = require("./modules/main-button/main-button-view");
+
 module.exports = IPEM;
 
-function IPEM() {
-  this.aSetting = true;
-};
+function IPEM() {}
 
-IPEM.prototype.doWork = function() {
-  console.log(this.aSetting);
-}
+IPEM.prototype.mainButton = function(selector) {
+  return new MainButton({el: selector});
+};
